@@ -1,0 +1,11 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: policy-library
+upstream:
+  type: git
+  git:
+    commit: c873feb9bda8cd27b17f5c65a74a5a78196ab1b0
+    repo: https://github.com/GoogleCloudPlatform/policy-library
+    directory: /
+    ref: master
