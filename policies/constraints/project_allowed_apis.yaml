@@ -12,7 +12,7 @@ spec:
     - "organizations/104924712991/folders/788633752998/**"
     exclude: []
   parameters:
-    mode: allow
+    mode: deny
     services:
     - "compute.googleapis.com"
     - "bigquery.googleapis.com"
