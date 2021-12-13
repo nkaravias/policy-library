@@ -24,7 +24,7 @@ spec:
   severity: high
   match:
     target: # {"$ref":"#/definitions/io.k8s.cli.setters.target"}
-    - "organization/104924712991/folders/788633752998/**"
+    - "organization/104924712991/folders/788633752998/*"
     exclude: [] # optional, default is no exclusions
   parameters:
     exemptions: [] # optional, default is no exemptions
