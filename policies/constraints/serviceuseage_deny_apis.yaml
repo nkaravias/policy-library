@@ -8,12 +8,10 @@ spec:
   severity: high
   match:
     target: # {"$ref":"#/definitions/io.k8s.cli.setters.target"}
-    - "organization/104924712991/*"
-    - "organization/104924712991/folders/788633752998/*"
+    - "organization/104924712991/projects/628414193824/*"      
     exclude: []
   parameters:
     mode: deny
     services:
-    - "container.googleapis.com"
-    - "bigquery.googleapis.com"
-    - "storage.googleapis.com"
+    - cloudapis.googleapis.com
+    - iam.googleapis.com
